@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:#d4fbf6 ;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+.column {
+flex: 25%;
+max-width: 25%;
+padding:  6px;
+
+}
+a img{
+width:90%;
+
+}
+h1{
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 50px;
+font-weight: bolder;
+font-style: italic;
+}
+@media screen and (max-width:800px) {
+.column{
+    flex: 50%;
+    max-width:50%
+}
+
+}
+@media screen and (max-width:600px) {
+.column{
+    flex: 100%;
+    max-width:100%
+}
+
+}
+.textStyle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 112, 101);
+    font-size: larger;
+    font-weight: bolder;
+    
+}
